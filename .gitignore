@@ -1,0 +1,6 @@
+# 真实配置(含私钥路径、私有 token)——绝不上传
+config.local.env
+
+# 本地产物
+*.local
+.DS_Store
