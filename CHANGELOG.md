@@ -2,6 +2,11 @@
 
 本项目遵循[语义化版本](https://semver.org/lang/zh-CN/)，格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.1.3] - 2026-06-15
+
+### 变更
+- **主线原则加铁律**:贯穿全文的主线**必须是本文自己的**;借鉴别的好文章只学「举鲜明例子」的手法,不能把人家整套比喻体系搬过来当自己的(否则成翻版)。新增「优先用一个贯穿全文的真实运行示例」作为更稳的主线方式。
+
 ## [0.1.2] - 2026-06-15
 
 ### 新增
@@ -28,6 +33,7 @@
 - **浅色高级视觉** —— 内置 `taste-light.css`，配图配色常量写在 `SKILL.md`。
 - 配置全部外置到 `config.local.env`，仓库零敏感信息，`config.example.env` 为占位模板。
 
+[0.1.3]: https://github.com/mayangzz/doc-generate-skill/releases/tag/v0.1.3
 [0.1.2]: https://github.com/mayangzz/doc-generate-skill/releases/tag/v0.1.2
 [0.1.1]: https://github.com/mayangzz/doc-generate-skill/releases/tag/v0.1.1
 [0.1.0]: https://github.com/mayangzz/doc-generate-skill/releases/tag/v0.1.0
