@@ -2,6 +2,13 @@
 
 本项目遵循[语义化版本](https://semver.org/lang/zh-CN/)，格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [0.2.0] - 2026-06-15
+
+### 新增
+- **Loop 5 · 配图密度硬闸**:四遍精修 → 五遍。新增发布前专门"数图"的一道闸,确保**每个大章节(H2)至少一张图**、复杂处必有图,图多不枯燥、立意撑得住。配图流程图同步重画为 5 步。
+- **文档大师约束 · 配图要够多**:把"图随文走"升级为硬指标——每个大章节 ≥ 1 图、复杂处优先配图、图宁多勿少,通篇全字几页一图算不合格。
+- **发布到外部平台(CSDN / 掘金等)**:新增标准路径——生成干净 HTML → upload-html 拿链接 → 浏览器全选复制 → 粘进平台**富文本编辑器**(自动转存图片)→ 发布。取代"markdown 导出 + 逐张重传图"的慢路。
+
 ## [0.1.3] - 2026-06-15
 
 ### 变更
@@ -33,6 +40,7 @@
 - **浅色高级视觉** —— 内置 `taste-light.css`，配图配色常量写在 `SKILL.md`。
 - 配置全部外置到 `config.local.env`，仓库零敏感信息，`config.example.env` 为占位模板。
 
+[0.2.0]: https://github.com/mayangzz/doc-generate-skill/releases/tag/v0.2.0
 [0.1.3]: https://github.com/mayangzz/doc-generate-skill/releases/tag/v0.1.3
 [0.1.2]: https://github.com/mayangzz/doc-generate-skill/releases/tag/v0.1.2
 [0.1.1]: https://github.com/mayangzz/doc-generate-skill/releases/tag/v0.1.1

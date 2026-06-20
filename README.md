@@ -33,12 +33,14 @@ AI 直接产出的文档，常有四个通病：
 
 ## ✨ 能做什么
 
-- **四遍 Loop 精修** —— 初稿 → 强化/精简/定结构 → 痛点+例子+用途讲具象 → 整体审校；每遍守「审美 + 格式」两条不变量。
+- **五遍 Loop 精修** —— 初稿 → 强化/精简/定结构 → 痛点+例子+用途讲具象 → 整体审校 → 配图密度硬闸（每个大章节 ≥ 1 图）；每遍守「审美 + 格式」两条不变量。
 - **自动配图** —— 手写浅色高级 SVG → `rsvg-convert` 转 PNG，用 `@@IMG:路径|说明@@` 内联到对应章节。
 - **飞书归档** —— 分享/学习类 → 知识库；日常自动生成 → 按 月/日 目录。每篇新建。
 - **HTML 在线页** —— 内置 `taste-light.css` 一套浅色高级样式，`--html` 自动上传拿链接。
 
-![四遍 Loop](assets/img/four-loop.png)
+![五遍 Loop](assets/img/four-loop.png)
+
+> 配图要够多：**每个大章节至少一张图**，复杂处（流程/架构/对比/链路）优先配图——图多不枯燥、立意撑得住，最后一遍 Loop 专门数图把关。
 
 ---
 
@@ -103,7 +105,7 @@ md 里用单独一行 `@@IMG:/abs/path.png|图说明@@` 标记配图，脚本会
 ```
 doc-generate-skill/
 ├── README.md
-├── SKILL.md              # 给 AI 读的规范（文档大师约束 + 四遍 Loop + 视觉语言）
+├── SKILL.md              # 给 AI 读的规范（文档大师约束 + 五遍 Loop + 视觉语言 + 外部平台发布）
 ├── setup.sh              # 首次启动：检查依赖 + 写 config.local.env
 ├── config.example.env    # 配置模板（committed）
 ├── .gitignore            # 忽略 config.local.env
